@@ -469,7 +469,7 @@ function row(k,l,v,sw){return '<div class="row"><i>'+IC[k]+'</i><span><small>'+l
 var FEST=[
  {k:'haldi',t:'Haldi',d:'Tuesday, 23 February 2027',tm:'7:00 AM',pl:'Our home, Bobbili',dr:'Yellow · Traditional',sw:['#f6c21b','#e8890c']},
  {k:'mehendi',t:'Mehendi &amp; Sangeet',d:'Tuesday, 23 February 2027',tm:'From 4:00 PM',pl:'Our home, Bobbili',dr:'Pastel · Traditional',sw:['#f4c6d0','#cfe3d4','#d8cdf0','#fbe3b5']},
- {k:'wedding',t:'Wedding (Muhurtham)',d:'Wednesday, 24 February 2027',tm:'12:04 AM · Muhurat',pl:'TBR Convention, Bobbili'}
+ {k:'wedding',t:'Wedding (Muhurtham)',d:'Wednesday, 24 February 2027',tm:'12:04 AM · Muhuratham',pl:'TBR Convention, Bobbili'}
 ];
 $('#t1').innerHTML=FEST.map(function(f){
   return '<article class="card"><div class="scene">'+SC[f.k]+'<div class="ico">'+ICON[f.k]+'</div></div><div class="cbody"><h3 class="ctitle">'+f.t+'</h3>'+row('cal','Date',f.d)+row('clk','Time',f.tm)+row('pin','Place',f.pl)+(f.dr?row('drs','Dress code',f.dr,f.sw):'')+'</div></article>';
